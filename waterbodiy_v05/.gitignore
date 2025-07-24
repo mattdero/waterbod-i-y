@@ -1,0 +1,18 @@
+﻿# System files
+AppData/
+**/BrowserMetrics*
+**/Chrome/
+**/Google/
+
+# Node modules and caches
+node_modules/
+.expo/
+.expo-shared/
+
+# Build outputs
+dist/
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
