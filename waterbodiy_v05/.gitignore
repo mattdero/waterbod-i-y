@@ -1,18 +1,48 @@
-﻿# System files
-AppData/
-**/BrowserMetrics*
-**/Chrome/
-**/Google/
-
-# Node modules and caches
+# Dependencies
 node_modules/
-.expo/
-.expo-shared/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Build outputs
+# Expo
+.expo/
 dist/
-build/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Macros
+*.hprof
+
+# Local env files
+.env*.local
+
+# Typescript
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
 
 # OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
